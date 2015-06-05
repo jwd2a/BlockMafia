@@ -1,0 +1,8 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<Label>Block Mafia</Label>
+			<Button id="fb_login">Log In With Facebook</Button>
+		</View>
+	</Window>
+</Alloy>

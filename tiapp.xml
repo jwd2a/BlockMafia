@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.madera.startupbus</id>
+    <id>com.maderalabs.startupbus</id>
     <name>startupbus</name>
     <version>1.0</version>
     <publisher>jdavis1002</publisher>
     <url>http://</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2015 by jdavis1002</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -16,7 +16,7 @@
     <ios>
         <plist>
             <dict>
-            	<key>NSLocationAlwaysUsageDescription</key>
+                <key>NSLocationAlwaysUsageDescription</key>
                 <string>
                     Without your location, this game's no fun!
                 </string>
@@ -39,6 +39,25 @@
                 <false/>
                 <key>UIStatusBarStyle</key>
                 <string>UIStatusBarStyleDefault</string>
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLName</key>
+                        <!-- Application ID same as the id value in the tiapp.xml file -->
+                        <string>com.madera.startupbus</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <!-- Prefix the Facebook App ID with 'fb' -->
+                            <string>fb584600665012442</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>FacebookAppID</key>
+                <!-- Facebook App ID -->
+                <string>584600665012442</string>
+                <key>FacebookDisplayName</key>
+                <!-- Facebook App Name from developer.facebook.com -->
+                <string>Block Mafia</string>
             </dict>
         </plist>
     </ios>
@@ -54,6 +73,8 @@
     <modules>
         <module platform="iphone">ti.map</module>
         <module platform="android">ti.map</module>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
