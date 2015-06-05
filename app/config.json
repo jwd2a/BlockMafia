@@ -1,0 +1,16 @@
+{
+	"global": {
+		"foursquare": {
+			"client_id": "2VGQMQJRMIE1G52F2ZSYIT2TOYRISS5VI4BBPYEFCVCS2R0Q",
+			"client_secret": "HN5RQX402W4DRXT2ZN3PV0JRD3SYLNYZZ1KCUN5LZEJGQ0DF"
+		}
+	}, 
+	"env:development": {}, 
+	"env:test": {}, 
+	"env:production": {}, 
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {}
+}
