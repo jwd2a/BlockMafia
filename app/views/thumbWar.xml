@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="thumbWar">
+		<View class="container">
+			<View id="instructions">
+				<Label>These are the instructions for the thumb war.</Label>
+				<Button id="start">Start Playing</Button>
+			</View>
+			<View id="countdown">
+				<Label id="counter">3</Label>
+			</View>
+			<View id="tapSurface">
+				<Label id="buildingName"></Label>
+				<Label id="buildingValue"></Label>
+				<Label>Tap Me!</Label>
+				<Label id="timer"></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,34 @@
+"Window" : {
+  backgroundColor: "#ffffff"
+}
+
+"#instructions" : {
+	layout: "vertical"
+}
+
+"#countdown" : {
+	visible: false,
+	backgroundColor: "#ff0000"
+}
+
+"#tapSurface" : {
+	visible: false
+}
+
+"#buildingName":{
+	top: 20,
+	font: {
+		fontSize: 30
+	}
+}
+
+"#buildingValue":{
+	top: 60,
+	font: {
+		fontSize: 20
+	}
+}
+
+"#timer":{
+	bottom: 20
+}

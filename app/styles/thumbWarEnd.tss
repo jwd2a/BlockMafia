@@ -1,0 +1,14 @@
+".container" : {
+  backgroundColor: "#ffffff"
+}
+
+"Button":{
+	bottom: 20
+}
+
+"Label":{
+	top: 20,
+	font: {
+		fontSize: 30
+	}
+}

@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="thumbWarEnd">
+		<View class="container">
+			<Label>Congrats, you're the fucking balls.</Label>
+			<Button id="backToGame">Back to the Game</Button>
+		</View>
+	</Window>
+</Alloy>
