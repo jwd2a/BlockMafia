@@ -1,12 +1,14 @@
 var args = arguments[0] || {};
 
+alert("API " + Alloy.CFG.api.path);
+
 var fb = require('facebook');
 fb.permissions = ['email'];
 fb.appid = "584600665012442";
 
 fb.addEventListener("login", function(e) {
     if (e.success) {
-        var url = "http://localhost:9000/api/users";
+        var url = Alloy.CFG.api.path + "/users";
         var xhr = Ti.Network.createHTTPClient({
             onload : function(e) {
                 Ti.App.Properties.setObject("currentUser", JSON.parse(this.responseText));
@@ -22,9 +24,7 @@ fb.addEventListener("login", function(e) {
         xhr.setRequestHeader("Content-type", "application/json");
         xhr.send(JSON.stringify({
             email: e.data.email,
-            facebook: {
-               id: e.data.id
-            }
+            facebook: e.data
         }));
     }
 });

@@ -5,9 +5,21 @@
 			"client_secret": "HN5RQX402W4DRXT2ZN3PV0JRD3SYLNYZZ1KCUN5LZEJGQ0DF"
 		}
 	}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
+	"env:development": {
+		"api":{
+			"path":"http://blockmafia.herokuapp.com/api"
+		}
+	}, 
+	"env:test": {
+		"api":{
+			"path":"http://blockmafia.herokuapp.com/api"
+		}
+	}, 
+	"env:production": {
+		"api":{
+			"path":"http://blockmafia.herokuapp.com/api"
+		}
+	}, 
 	"os:android": {},
 	"os:blackberry": {},
 	"os:ios": {},

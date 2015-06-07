@@ -2,18 +2,24 @@
 	<Window id="thumbWar">
 		<View class="container">
 			<View id="instructions">
-				<Label>These are the instructions for the thumb war.</Label>
+				<Label id="challengeText"></Label>
+				<Label>Get ready to tap fast!</Label>
 				<Button id="start">Start Playing</Button>
 			</View>
 			<View id="countdown">
 				<Label id="counter">3</Label>
 			</View>
 			<View id="tapSurface">
-				<Label id="buildingName"></Label>
-				<Label id="buildingValue"></Label>
-				<Label>Tap Me!</Label>
-				<Label id="timer"></Label>
+				<View id="buildingPreview">
+					<Label id="introText">Playing to steal:</Label>
+					<Label id="buildingName"></Label>
+					<Label id="buildingValue"></Label>
+				</View>
+				<View id="tapArea">
+					<Label id="tapText">Tap!</Label>
+				</View>		
 			</View>
+			<Label id="timer"></Label>
 		</View>
 	</Window>
 </Alloy>

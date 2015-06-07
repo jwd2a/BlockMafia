@@ -3,32 +3,94 @@
 }
 
 "#instructions" : {
+	width: "85%",
+	height: Titanium.UI.SIZE,
 	layout: "vertical"
+}
+
+"Label" : {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 25
+	},
+	top: 15
+}
+
+"#start" : {
+	top: 20
+}
+
+"#buildingPreview":{
+	height: "100dp",
+	width: "85%",
+	borderRadius: "5dp",
+	borderColor: "#8fa690",
+	layout: "vertical",
+	top: 30
+
+}
+
+"#introText":{
+	font: {
+		fontSize: 15
+	}
 }
 
 "#countdown" : {
 	visible: false,
-	backgroundColor: "#ff0000"
-}
-
-"#tapSurface" : {
-	visible: false
-}
-
-"#buildingName":{
-	top: 20,
+	backgroundColor: "#ffffff",
+	bottom: 30,
 	font: {
-		fontSize: 30
+		fontSize: 50
 	}
 }
 
-"#buildingValue":{
-	top: 60,
+"#counter":{
+	font: {
+		fontSize: 80
+	},
+	bottom: 30
+}
+
+"#tapSurface" : {
+	visible: false,
+	height: Titanium.UI.FILL
+}
+
+"#tapArea" : {
+	width: "200dp",
+	height: "200dp",
+	borderRadius: "100dp",
+	borderColor: "#cccccc",
+	borderWidth: "4dp",
+	layout: "vertical"
+}
+
+"#tapText" :{
+	font: {
+		fontSize: 50
+	},
+	color: "#cccccc",
+	top: "70dp"
+}
+
+"#buildingName" :{
+	top: 5,
 	font: {
 		fontSize: 20
 	}
 }
 
-"#timer":{
-	bottom: 20
+"#buildingValue" :{
+	top: 5,
+	font: {
+		fontSize: 15
+	}
+}
+
+"#timer" : {
+	bottom: 20,
+	font: {
+		fontSize: 80
+	}
 }

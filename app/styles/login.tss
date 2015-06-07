@@ -1,3 +1,15 @@
 ".container" : {
-	layout: "vertical"  
+   backgroundColor: "#ffffff"
+}
+
+"#fb_login": {
+	bottom: 20,
+	height: "50dp",
+	width: "80%",
+	font: {
+		fontSize: 20
+	},
+	borderRadius: "5dp",
+	borderWidth: "2dp",
+	borderColor: "#000000"
 }

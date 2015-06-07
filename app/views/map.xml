@@ -1,3 +1,8 @@
 <Alloy>
-	<Window id="root"></Window>
+	<Window id="root">
+		<View id="userHUD">
+			<Label id="user"></Label>
+			<Label id="userDough"></Label>
+		</View>
+	</Window>
 </Alloy>

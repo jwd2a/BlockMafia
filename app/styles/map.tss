@@ -1,0 +1,24 @@
+"#root" : {
+  
+}
+"#user" : {
+  
+}
+"#userHUD" : {
+  height: "50dp",
+  backgroundColor: "#ffffff",
+  width: "90%",
+  borderRadius: "10dp",
+  borderColor: "#557259",
+  zIndex: 99,
+  bottom: 10,
+  opacity: 0.9
+}
+
+"#user" :{
+	left: 20
+}
+
+"#userDough" :{
+	right: 20
+}

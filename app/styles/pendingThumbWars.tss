@@ -1,0 +1,23 @@
+"Window": {
+	backgroundColor: "#253f21"
+}
+
+"Label":{
+	color: "#ffffff"
+}
+
+"#wars":{
+	top: 100
+}
+
+"#title": {
+	top: 40,
+	font: {
+		fontSize: 30
+	}
+}
+
+"ImageView":{
+	bottom:"30dp",
+	width: "40%"
+}

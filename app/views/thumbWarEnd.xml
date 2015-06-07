@@ -1,7 +1,17 @@
 <Alloy>
 	<Window id="thumbWarEnd">
 		<View class="container">
-			<Label>Congrats, you're the fucking balls.</Label>
+			<Label id="finishMsg"></Label>
+			<View id="results">	
+				<View class="player">
+					<Label id="player1_name">Killian</Label>			
+					<Label id="player1_score">64</Label>
+				</View>
+				<View class="player">
+					<Label id="player2_name" class="player_name">Justin</Label>
+					<Label id="player2_score" class="player_score">52</Label>
+				</View>
+			</View>
 			<Button id="backToGame">Back to the Game</Button>
 		</View>
 	</Window>

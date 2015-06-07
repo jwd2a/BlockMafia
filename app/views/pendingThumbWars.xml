@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="pendingThumbWars">
+		<Label id="title">Thumb Wars to Play</Label>
+		<View id="wars"></View>
+		<ImageView image="finalFinger.png"></ImageView>
+	</Window>
+</Alloy>

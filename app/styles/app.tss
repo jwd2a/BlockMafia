@@ -1,0 +1,19 @@
+"Label" : {
+	font: {
+		fontFamily: "Futura"
+	}
+}
+
+"Button":{
+	color: "#ffffff",
+    font: {
+        fontSize: 20,
+        fontColor: "#000000",
+        fontWeight: "bold"
+    },
+    width : "80%",
+    height : "55dp",
+    borderColor : "#000",
+    borderRadius: "5dp",
+    backgroundColor: "#253f21"
+}
